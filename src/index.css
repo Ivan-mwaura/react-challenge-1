@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.heading_1{
+  color: #61DAFB;
+
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212121;
+}
+.navbar{
+  list-style: none;
+  display: flex;
+  font-size: 25px;
+  
+}
+.navbar> li{
+  padding: 10px;
+  color:white;
+  font-size: 22px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-logo{
+  width: 60px;
+
+}
+
+.footer{
+  display: flex;
+  color: beige;
+  bottom: 0;
+  position: fixed;
+  width: 100vh;
+  align-items: center;
+  padding-left: 300px;
+  
+}
+.hr_1{
+  box-shadow: 5px;
+}
+body{
+  background-color: #282d35;
+
+}
+.title{
+  color: #ffff;
+}
+.div_1{
+  margin-left: 150px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.list_1{
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  padding-block: 10px;
+  line-height: 35px;
+}
+.list_1 >li::marker{
+  color: #61DAFB;
 }
